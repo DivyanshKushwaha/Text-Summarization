@@ -57,7 +57,8 @@ This project is organized as follows:
             -  data_validation_pipeline.py : Validate the ingestion process.
             -  data_transformation_pipeline.py : Performs data preprocessing and feature engineering.
             -  model_trainer_pipeline.py : Defines the training pipeline for model development.
-            -  model_prediction_pipeline.py : Defines the pipeline for making predictions using the trained model.
+            -  model_evaluation_pipeline.py : Defines the training pipeline for model development.
+            -  prediction_pipeline.py : Defines the pipeline for making predictions using the trained model.
         - utils : Contains utility functions used throughout the project.
 
  - #### static
@@ -91,23 +92,23 @@ This project is organized as follows:
 ## Getting started
  To get started with this project, follow these steps:
 
-  - Create an envoirement 'projectml' using the following command 
+  - Create an envoirement 'summarizer' using the following command 
 
-         conda create -n projectml python=3.10
+         conda create -n summarizer python=3.9.19
 
   - Activate the envoirement using the following command:
 
-         conda activate projectml
+         conda activate summarizer
  
  
 
   - Clone the repostiory to your local machine using the following command:
 
-         git clone https://github.com/DivyanshKushwaha/Wine-Quality-Prediction.git
+        https://github.com/DivyanshKushwaha/Text-Summarization.git
  
   - Navigate to the project directory:
 
-         cd Wine-Quality-Prediction
+         cd Text-Summarization
 
   - We can manually create files and folders mentioned in the template.py. Also we can Create the template.py files and folders using the command:
 
@@ -125,12 +126,12 @@ This project is organized as follows:
 
   - Open your web browser and go to given address. Fill the feature values and get the wine quality prediction. 
 
-          http://127.0.0.1:8080
+          http://0.0.0.0:8080
       
 
 
 ## Usage
- Once you have the web application running, you can use it to predict the quality of wine based on the input features. Simply provide the required information, and the application will provide you with the    prediction.
+ This project can be used in summarizing the text as it gives the context of the entered text. It can be a sentence or a paragraph.
 
 
 ## Contributing
