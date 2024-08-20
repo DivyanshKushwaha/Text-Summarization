@@ -3,7 +3,7 @@ from textSummarizer.components.data_transformation import DataTransformation
 from textSummarizer.logging import logger
 
 
-class DataValidationTrainingPipeline:
+class DataTransformationPipeline:
     def __init__(self):
         pass
 
